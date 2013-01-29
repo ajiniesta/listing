@@ -13,7 +13,7 @@
         <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="20.0">
           <children>
             <Label fx:id="labelInput" />
-            <TextField fx:id="textField" prefWidth="200.0" />
+            <TextField id="textField" fx:id="textFieldInput" prefWidth="200.0" />
             <Button fx:id="buttonLoad" mnemonicParsing="false" text="Button" />
           </children>
         </HBox>
